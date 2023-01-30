@@ -1,22 +1,26 @@
 {
     "format_version": 1,
-    "tooth": "github.com/Tooth-Hub/<repository name>",
-    "version": "<version>",
-    "dependencies": {},
+    "tooth": "github.com/Tooth-Hub/MinecraftLevelExporter",
+    "version": "0.1.0",
     "information": {
-        "name": "<name>",
-        "description": "<description>",
-        "author": "<author>",
-        "license": "<license>",
-        "homepage": "<homepage>"
+        "name": "Minecraft Level Exporter",
+        "description": "Export and convert Minecraft level to NovelCraft level.",
+        "author": "Futrime",
+        "license": "LGPLv3",
+        "homepage": "https://github.com/NovelCraft/MinecraftLevelExporter"
     },
     "placement": [
         {
-            "source": "<source>",
-            "destination": "<destination>"
+            "source": "exporter.js",
+            "destination": "plugins/exporter.js"
+        },
+        {
+            "source": "converter.exe",
+            "destination": ".lip/tools/converter/converter.exe"
+        },
+        {
+            "source": "dict.json",
+            "destination": "dict.json"
         }
-    ],
-    "possession": [
-        "<possession>"
     ]
 }
