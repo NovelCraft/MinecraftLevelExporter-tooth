@@ -21,5 +21,12 @@
             "source": "dict.json",
             "destination": "dict.json"
         }
-    ]
+    ],
+    "dependencies": {
+        "github.com/Tooth-Hub/LiteLoaderBDS": [
+            [
+                ">=2.10.1"
+            ]
+        ]
+    }
 }
